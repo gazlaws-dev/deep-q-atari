@@ -1,0 +1,41 @@
+Loading weights from file...
+Loading weights from file...
+Observation space: [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+Action space: 4
+load: ./output/run20190421-235627_MsPacmanDeterministic-v4/model_DQN.h5
+initial_random_actions: 30
+avg_val_computation_freq: 50000.0
+target_network_update_freq: 10000.0
+video: False
+replay_start_size: 50000.0
+epsilon_decrease: 9e-07
+minibatch_size: 32
+max_episodes: inf
+test_states: 30
+max_frames_number: 50000000.0
+environment: MsPacmanDeterministic-v4
+epsilon: 1
+validation_frames: 135000
+dropout: 0.0
+discount_factor: 0.99
+max_episode_length: inf
+learning_rate: 0.00025
+debug: False
+train: True
+eval: False
+test_freq: 250000
+replay_memory_size: 1000000.0
+min_epsilon: 0.1
+update_freq: 4
+Episode 0
+Gathered 100 samples of 1000000
+Gathered 200 samples of 1000000
+Length: 216; Score: 4
+
+Episode 1

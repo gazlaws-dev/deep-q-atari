@@ -1,0 +1,87 @@
+Observation space: [[0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ ...
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]
+ [0 0 0 ... 0 0 0]]
+Action space: 4
+load: None
+initial_random_actions: 30
+avg_val_computation_freq: 50000.0
+target_network_update_freq: 10000.0
+video: False
+replay_start_size: 50000.0
+epsilon_decrease: 9e-07
+minibatch_size: 32
+max_episodes: inf
+test_states: 30
+max_frames_number: 50000000.0
+environment: MsPacmanDeterministic-v4
+epsilon: 1
+validation_frames: 135000
+dropout: 0.0
+discount_factor: 0.99
+max_episode_length: inf
+learning_rate: 0.00025
+debug: False
+train: True
+eval: False
+test_freq: 250000
+replay_memory_size: 1000000.0
+min_epsilon: 0.1
+update_freq: 4
+Episode 0
+Gathered 100 samples of 1000000
+Length: 122; Score: 0
+
+Episode 1
+Gathered 200 samples of 1000000
+Length: 117; Score: 0
+
+Episode 2
+Gathered 300 samples of 1000000
+Gathered 400 samples of 1000000
+Length: 167; Score: 2
+
+Episode 3
+Gathered 500 samples of 1000000
+Length: 119; Score: 0
+
+Episode 4
+Gathered 600 samples of 1000000
+Gathered 700 samples of 1000000
+Length: 257; Score: 5
+
+Episode 5
+Gathered 800 samples of 1000000
+Gathered 900 samples of 1000000
+Gathered 1000 samples of 1000000
+Length: 308; Score: 9
+
+Episode 6
+Gathered 1100 samples of 1000000
+Gathered 1200 samples of 1000000
+Length: 163; Score: 2
+
+Episode 7
+Gathered 1300 samples of 1000000
+Gathered 1400 samples of 1000000
+Length: 162; Score: 2
+
+Episode 8
+Gathered 1500 samples of 1000000
+Length: 116; Score: 0
+
+Episode 9
+Gathered 1600 samples of 1000000
+Gathered 1700 samples of 1000000
+Length: 268; Score: 8
+
+Episode 10
+Gathered 1800 samples of 1000000
+Gathered 1900 samples of 1000000
+Gathered 2000 samples of 1000000
+Quitting...
+Saving model as model_DQN.h5
+Saving model as model_DQN_target.h5
