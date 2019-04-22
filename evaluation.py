@@ -1,5 +1,6 @@
 
-import gym
+#import gym
+from breakout_env import Breakout
 import numpy as np
 import utils
 
@@ -11,7 +12,7 @@ def evaluate(DQA, args, logger):
 
     evaluation_csv = 'evaluation.csv'
     logger.to_csv(evaluation_csv, 'length,score')
-    env = gym.make(args.environment)
+    env = Breakout({})
     scores = list()
     frame_counter = 0
 
